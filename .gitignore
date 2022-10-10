@@ -5,7 +5,6 @@
 *.ear
 *.nar
 hs_err_pid*
-
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -17,21 +16,18 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-
 bin/
 build/
 .gradle
 .gradletasknamecache
 gradle-app.setting
 !gradle-wrapper.jar
-
 out/
 .idea/
 .idea_modules/
 *.iml
 *.ipr
 *.iws
-
 .settings/
 bin/
 tmp/
@@ -45,7 +41,6 @@ tmp/
 local.properties
 .loadpath
 .factorypath
-
 nbproject/private/
 build/
 nbbuild/
@@ -53,8 +48,6 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
-
 .vscode/
 .code-workspace
-
 .DS_Store
