@@ -161,6 +161,13 @@ class RegistrationForm extends Frame {
 		submitBtn.setBackground(Color.BLACK);
 		submitBtn.setForeground(Color.YELLOW);
 		add(submitBtn);
+		
+		Button resetBtn = new Button("Reset");
+		resetBtn.setBounds(550, 600, 130, 35);
+		resetBtn.setFont(labelFont);
+		resetBtn.setBackground(Color.BLACK);
+		resetBtn.setForeground(Color.YELLOW);
+		add(resetBtn);
 
 		this.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
