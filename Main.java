@@ -57,7 +57,10 @@ class RegistrationForm extends Frame {
 		branchField.add("CS");
 		branchField.add("IT");
 		branchField.add("CSIT");
+		branchField.add("ECE");
+		branchField.add("EN");
 		branchField.add("Civil");
+		branchField.add("Mechanical");
 		add(branchField);
 
 		Label contact = new Label("Contact :");
@@ -127,6 +130,7 @@ class RegistrationForm extends Frame {
 		TextField passwordField = new TextField();
 		passwordField.setBounds(400, 450, 400, 30);
 		passwordField.setFont(textFont);
+		passwordField.setEchoChar('*');
 		add(passwordField);
 
 		Label hint = new Label("Hint Question :");
